@@ -5,21 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>プロフィールページ</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 50px;
-            background-color: lightgray;
-        }
-
-        .starter-template {
-            padding: 40px 40px;
-            background-color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -44,31 +33,59 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>タイトル</h1>
+                    <p class="lead">世界の皆さん、こんにちは。</p>
+                    <p class="lead">なしおセブンと申します(＾ω＾)</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="https://paiza-webapp.s3.amazonaws.com/files/learning/portfolio/neko.png" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.jumbotron -->
     <div class="container">
         <div class="starter-template">
-            <h1>タイトル</h1>
-            <p class="lead">世界の皆さん、こんにちは。</p>
+            <div class="row text-center">
+                <h2>見かけに寄らず</h2>
+                <div class="col-sm-4">
+                    <h3 class="color-talk"><span class="glyphicon glyphicon-volume-up icon-size"></span><br>しゃべる</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="color-wrench"><span class="glyphicon glyphicon-wrench icon-size"></span><br>しゃべる</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="color-heart"><span class="glyphicon glyphicon-heart icon-size"></span><br>しゃべる</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+                </div>
+            </div>
+            <!-- /.row -->
             <h2 id="works">Works</h2>
             <div class="row">
-              <div class="col-sm-6">
-                <h3>hogehoge</h3>
-                  <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-              </div>
-              <div class="col-sm-6">
-                <img src="https://paiza-webapp.s3.amazonaws.com/files/learning/portfolio/work1.png" class="img-responsive">
-              </div>
+                <div class="col-sm-6">
+                    <h3>hogehoge</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="https://paiza-webapp.s3.amazonaws.com/files/learning/portfolio/work1.png" class="img-responsive">
+                </div>
             </div>
             <hr>
             <h2 id="skills">Skills</h2>
             <p>説明文：あいうえおあいうえおあいうえお</p>
             <div class="row starter-template">
-            <a class="btn btn-primary" href="#">Topに戻る</a>
+                <a class="btn btn-primary" href="#">Topに戻る</a>
+            </div>
         </div>
-    </div>
-    <!-- /.container -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- /.container -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 
 </html>
