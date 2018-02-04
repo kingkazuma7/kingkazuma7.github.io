@@ -68,7 +68,7 @@
   /*ボタン*/
 
   .btn {
-    width: 30%;
+      padding: 8px 30px !important;
   }
 
   .btn-default a {
@@ -76,16 +76,16 @@
   }
 
   .btn-wrap {
-    text-align: center;
+      text-align: center;
   }
 
   @media screen and (max-width: 767px) {
-    .img-kz {
-      width: 40%;
-      margin: 0 auto;
-  }
+      .img-kz {
+          width: 40%;
+          margin: 0 auto;
+      }
 
-    .col-left {
-      margin-bottom: 3em;
-    }  
+      .col-left {
+          margin-bottom: 3em;
+      }
   }
