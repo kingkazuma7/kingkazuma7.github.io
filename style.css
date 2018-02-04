@@ -3,6 +3,11 @@
       background-color: lightgray;
   }
 
+  .img-kz {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   .starter-template {
       padding: 40px 40px;
       background-color: white;
@@ -22,4 +27,28 @@
 
   .icon-size {
       font-size: 200%;
+  }
+
+  .base-ttl {
+      position: relative;
+      padding-left: 1.2em;
+      /*アイコン分のスペース*/
+      line-height: 1.4;
+  }
+
+  .base-ttl:before {
+      font-family: FontAwesome;
+      /*忘れずに*/
+      content: "\f00c";
+      /*アイコンのユニコード*/
+      position: absolute;
+      /*絶対位置*/
+      font-size: 1em;
+      /*サイズ*/
+      left: 0;
+      /*アイコンの位置*/
+      top: 0;
+      /*アイコンの位置*/
+      color: #d25d33;
+      /*アイコン色*/
   }
