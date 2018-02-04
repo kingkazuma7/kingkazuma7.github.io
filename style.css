@@ -1,0 +1,91 @@
+  body {
+      padding-top: 50px;
+      background-color: lightgray;
+  }
+
+  p,
+  .jumbotron p {
+      font-size: 1.4em !important;
+  }
+
+  h3 {
+      font-size: 30px !important;
+  }
+
+  .img-kz {
+      width: 70%;
+      margin: 0 auto;
+  }
+
+  .starter-template {
+      padding: 40px 40px;
+      background-color: white;
+  }
+
+  .color-talk {
+      color: lightseagreen;
+  }
+
+  .color-wrench {
+      color: steelblue;
+  }
+
+  .color-heart {
+      color: plum;
+  }
+
+  .icon-size {
+      font-size: 200%;
+  }
+
+  .base-ttl {
+      position: relative;
+      padding-left: 1.2em;
+      /*アイコン分のスペース*/
+      line-height: 1.4;
+  }
+
+  .base-ttl:before {
+      font-family: FontAwesome;
+      /*忘れずに*/
+      content: "\f00c";
+      /*アイコンのユニコード*/
+      position: absolute;
+      /*絶対位置*/
+      font-size: 1em;
+      /*サイズ*/
+      left: 0;
+      /*アイコンの位置*/
+      top: 0;
+      /*アイコンの位置*/
+      color: #d25d33;
+      /*アイコン色*/
+  }
+
+  .status p {
+      text-align: left;
+  }
+  /*ボタン*/
+
+  .btn {
+      padding: 8px 30px !important;
+  }
+
+  .btn-default a {
+      color: #fff;
+  }
+
+  .btn-wrap {
+      text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+      .img-kz {
+          width: 40%;
+          margin: 0 auto;
+      }
+
+      .col-left {
+          margin-bottom: 3em;
+      }
+  }

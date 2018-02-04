@@ -1,18 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<title>TipsNote : GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>プロフィールページ</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/united/bootstrap.min.css">
 </head>
 
 <body>
-<main>
-  <h1>GitHub Pages のサンプルです</h1>
-</main>
-
-<script>
-console.log('GitHub Pages Sample');
-</script>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">なしおセブン</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">自己紹介(仮)</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#others">Others</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="img/kingkazuma02.png" alt="キングカズマ" class="img-responsive img-kz">
+                </div>
+                <div class="col-sm-6">
+                    <h2 class="base-ttl">アイコン</h2>
+                    <p class="lead">
+                        アイコンはサマーウォーズのキングカズマです。
+                        <br> サマーウォーズの仮想世界に憧れてパソコンいいな、ITいいなと思って巡り巡ってWeb業界へ。
+                    </p>
+                    <!-- /.lead -->
+                    <h2 class="base-ttl">基本情報</h2>
+                    <p class="lead">
+                        年齢: 24歳
+                        <br> 性別: 男性
+                        <br> 趣味: 野球、読書、アニメ、漫画、お笑い、ピストバイク(ブレーキ付いてます！)
+                        <br> 娯楽大好きぃ！！
+                    </p>
+                    <h2 class="base-ttl">Work</h2>
+                    <p class="lead">
+                        現職: Web制作会社 2018年2月~
+                        <br> 前職: インフラ部門、金融系サポート業務(社内待機含め6ヶ月)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.jumbotron -->
+    <div class="container">
+        <div class="starter-template">
+            <div class="row text-center status">
+                <h3>ステータス</h3>
+                <div class="col-sm-4">
+                    <h3 class="color-talk"><span class="glyphicon glyphicon-volume-up icon-size"></span><br>対人スキル</h3>
+                    <p>アルバイト、正社員含め5年弱接客業をしてきたので人並みにコミュニケーションを測れます。あと、A型なので人並みに空気読めます。口癖は人並みです。</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="color-wrench"><span class="glyphicon glyphicon-pencil icon-size"></span><br>自己学習</h3>
+                    <p>まあまあ勉強します。勉強記録はツイッターやGithub、Qittaなど形に残すことを意識してます。特にGithubに溜め込んでいます。ちょこちょこ勉強会にも顔出します。</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="color-heart"><span class="glyphicon glyphicon-signal icon-size"></span><br>簿記</h3>
+                    <p>学生時代日商簿記2級取得しました。日商簿記1級も勉強してましたが、就活が差し迫ってきて断念しました。ちなみに簿記の内容ほとんど忘れちゃいました。てへぺろ。</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+            <h2 id="works" class="base-ttl">Works</h2>
+            <div class="row">
+                <div class="col-sm-6 col-left">
+                    <h3>作品01</h3>
+                    <p>HTML5&amp;CSS3標準デザイン講座の課題サイトです。
+                        <br> CSS設計で有名なSMACSS記法、タスクランナーGulp、SASSを用いて制作しました。SMACSS記法は動画学習サイトSchoo「HTML5/CSS実践 明日から使えるテクニック」の中で知り、取り入れてみました。</p>
+                    <p class="btn-wrap">
+                        <button type="button" class="btn btn-default" onclick="location.href='http://felica7.webcrow.jp/Smacss_Rwd/'" formtarget="_blank">View</button>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/cafe_leaf.png" class="img-responsive">
+                </div>
+            </div>
+            <hr>
+            <h2 id="others" class="base-ttl">Others</h2>
+            <p><a href="https://qiita.com/nasio7" target="_blank">Qiita</a>
+                <br>備忘録と化しています。</p>
+            <p><a href="https://github.com/kingkazuma7" target="_blank">Github</a>
+                <br>学習記録置き場と化しています。</p>
+            <hr>
+            <h2 id="skills" class="base-ttl">Skills</h2>
+            <p>これからこれから！！</p>
+            <div class="row starter-template text-center">
+                <a class="btn btn-primary" href="#">Topに戻る</a>
+            </div>
+        </div>
+        <!-- /.container -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+        $(function() {
+            var headerHight = 70;
+            // #で始まるリンクをクリックしたら実行されます
+            $('a[href^="#"]').click(function() {
+                var speed = 400; // ミリ秒で記述
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top - headerHight;
+                $('body,html').animate({ scrollTop: position }, speed, 'swing');
+                return false;
+            });
+        });
+        </script>
 </body>
+
 </html>
